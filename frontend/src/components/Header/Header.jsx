@@ -1,18 +1,28 @@
-import React from 'react'
-import "./Header.css"
+import React from "react";
+import "./Header.css";
 
 const Header = () => {
   return (
-    <div className='header'>
+    <div className="header">
 
-        <div className="header-contents">
-            <h2>Order your favourite food here</h2>
-            <p>choose  from a diverse menu featuring  a fdjfakldfj sfsdjf fsdgigd iwnesdf  sdfkshfs fsfhskfskjf ubd f dsfhds asfshkknvknncn inds fsu sss.</p>
-            <button>View Menu</button>
+      <div className="overlay"></div>
+
+      <div className="header-content">
+        <h1>Delicious Food Delivered Fast</h1>
+
+        <p>
+          Experience the best meals from your favorite restaurants delivered
+          straight to your door.
+        </p>
+
+        <div className="header-buttons">
+          <button className="primary">Explore Menu</button>
+          <button className="secondary">Order Now</button>
         </div>
-      
-    </div>
-  )
-}
+      </div>
 
-export default Header
+    </div>
+  );
+};
+
+export default Header;
