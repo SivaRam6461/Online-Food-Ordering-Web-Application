@@ -25,6 +25,12 @@
   align-items: start;
   gap: 20px;
 }
+.footer-content,
+.footer-content-left .p {
+  font-size: 18px;
+
+  line-height: 1.6;
+}
 .footer-content-left li,
 .footer-content-right li,
 .footer-content-center li {
