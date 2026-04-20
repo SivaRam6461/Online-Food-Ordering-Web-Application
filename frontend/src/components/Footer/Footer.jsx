@@ -8,7 +8,10 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <img src={assets.logo} alt="" />
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit earum mollitia deserunt consequuntur enim eveniet eum ea, quibusdam odit necessitatibus sint corrupti recusandae laudantium similique porro quod blanditiis, sapiente minima!</p>
+                <p>Welcome to Restaurant Name, where every dish tells a story of flavor and tradition. 
+                    From our kitchen to your table, we are committed to using the freshest local 
+                    ingredients to create unforgettable dining experiences. 
+                     Stay connected with us on social media for the latest seasonal specials and exclusive offers.</p>
                 <div className="footer-social-icons">
                     <img src={assets.facebook_icon} alt="" />
                     <img src={assets.linkedin_icon} alt="" />
@@ -30,7 +33,7 @@ const Footer = () => {
                 <h2>GET IN TOUCH</h2>
                 <ul>
                     <li>+91 123-456-789</li>
-                    <li>contact@tomato.com</li>
+                    <li>contact@restaurant.com</li>
                 </ul>
 
                 
@@ -38,7 +41,7 @@ const Footer = () => {
              
         </div>
         <hr />
-        <div className="footer-copyright">Copyright 2025 Tomato.com - All Right Reserved.</div>
+        <div className="footer-copyright">Copyright 2025 restaurant.com - All Right Reserved.</div>
       
     </div>
   )
